@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 1em;
+}
+main {
+  display: flex;
+}
+section {
+  flex-basis: 50%;
+  min-height: 10em;
+  background-color: azure;
+}
+
+aside {
+  flex-basis: 25%;
+  background-color: aqua;
+}
+
+header,
+footer {
+  background-color: lightblue;
+}
+
+#image {
+  width: 100%;
+  height: auto;
+}
